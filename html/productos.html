@@ -11,50 +11,136 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <div id=grilla>
         <header>
-            <h1>ELI AROMAS</h1>
+            <h1 class="text-center"> <a href="../index.html"> ELI AROMAS </a></h1>
         </header>
+
         <!--INICIO MENU-->           
-        <nav class="nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link" href="../index.html">INICIO</a>
-            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="../html/productos.html">PRODUCTOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../html/servicios.html">SERVICIOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../html/galeria.html">GALERIA</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../html/contacto.html">CONTACTO</a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+              <div class="navbar-nav">
+
+                <a class="nav-link" href="../index.html">Inicio</a>
+                <a class="nav-link active" href="productos.html">Productos</a>
+                <a class="nav-link" href="servicios.html">Servicios</a>
+                <a class="nav-link" href="galeria.html">Galeria</a>
+                <a class="nav-link" href="contacto.html">Contacto</a>
+
+              </div>
+            </div>
+
+          </div>
         </nav>
         <!--FIN MENU-->
-        <table class="tablas">
-            <tr>
-                <td class="tablas">Producto</td>
-                <td class="tablas">Tipo</td>
-                <td class="tablas">Aromas</td>
-            </tr>
-            <tr>
-                <td>Aromaticante ambiental</td>
+
+        <main>
+
+        <!-- TABLA -->
+        <table class="table table-responsive">
+            <thead>
+              <tr>
+                <th scope="col">Productos</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Aroma</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Aromatizante ambiental</td>
                 <td>
-                    <ul>
-                        <li>Aerosol x 185g</li>           
-                        <li>Combo Dispenser + Aerosol x 185g</li>
-                    </ul>
+                       <p> Aerosol x 185g</p>
+                       <p> Combo Dispenser + Aerosol x 185g</p>
+                    
                 </td>
                 <td>
-                    <ol>
-                        <li>channel</li>
-                        <li>Bebé</li>
-                        <li>Amour</li>
-                        <li>Bubble</li>
-                    </ol>
+                
+                        <p>Channel</p>
+                        <p>Bebe</p>
+                        <p>Amour</p>
+                        <p>Bubble</p>
+      
                 </td>
-            </tr>
+              </tr>
+
+              <tr>
+                <td>Aromatizante ambiental</td>
+                <td>
+                       <p> Difusor de aromas</p>
+                       <p> Combo Difusor + Repuesto</p>
+                    
+                </td>
+                <td>
+                
+                        <p>Limón</p>
+                        <p>Maderas</p>
+                        <p>Tilo jenjibre</p>
+                        <p>Albahaca</p>
+      
+                </td>
+              </tr>
+
+              <tr>
+                <td>Aromatizante ambiental</td>
+                <td>
+                       <p> Aceites aromáticos</p>
+                       <p> Combo Aceites aromáticos x 5 Un</p>
+                    
+                </td>
+                <td>
+                
+                        <p>Aceite aromático te oriental</p>
+                        <p>Aceite aromático te verde</p>
+                        <p>Aceite aromático maderas orientales</p>
+                        <p>Aceite aromático salvia</p>
+      
+                </td>
+              </tr>
+
+            </tbody>
         </table>
-    
-        <footer>
-            <h2 class="piedepagina">Celular: 2604538909 - San Rafael - Mendoza</h2>
+        <!-- FIN TABLA -->
+        </main>
+        <!-- INICIO PIE DE PAGINA -->
+        <footer class="footer py-4">
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-6">
+                <ul class="info-contacto">
+                  <li><i class="fas fa-map-marker-alt"></i> San Rafael - Mendoza</li>
+                  <li><i class="fab fa-whatsapp"></i> 2604538909</li>
+                  <li><i class="fas fa-envelope"></i> info@eliaromas.com</li>
+                </ul>
+              </div>
+
+              <div class="col-6">
+                <h4>Eli Aromas</h4>
+                <p>Nos dedicamos a desarrollar diversas líneas de productos, pensados para aromatizar y reconfortar silenciosamente nuestros espacios de vida</p>
+                <ul class="redes-sociales">
+                  <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
         </footer>
+        <!-- FIN PIE DE PAGINA -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

@@ -6,37 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="servicio de aromatización">
     <meta name="description" content="Eli Aromas también te ofrece sus servicios de aromatización de ambientes en comercios, oficinas, sanatorios, consultorios, hoteles">
-
     <title>Eli | Servicio de aromatización</title>
+
+    <!-- LINK ESTILOS -->
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    
 </head>
 <body>
-    <div id="grilla">
+    <div id=grilla>
         <header>    
-            <h1>ELI AROMAS</h1>
+            <h1 class="text-center"> <a href="../index.html"> ELI AROMAS </a></h1>
         </header>
         <!--INICIO MENU-->           
-        <nav class="nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link" href="../index.html">INICIO</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../htmal/productos.html">PRODUCTOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="../html/servicios.html">SERVICIOS</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../html/galeria.html">GALERIA</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="../html/contacto.html">CONTACTO</a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+               
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+  
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+  
+                <div class="navbar-nav">
+  
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                  <a class="nav-link" href="productos.html">Productos</a>
+                  <a class="nav-link active" href="servicios.html">Servicios</a>
+                  <a class="nav-link" href="galeria.html">Galeria</a>
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+  
+                </div>
+              </div>
+  
+            </div>
         </nav>
         <!--FIN MENU-->
-        <div>
-            <H3>PONEMOS A SU DISPOSICIÓN EL SISTEMA DE AROMATIZACIÓN AMBIENTAL PROFESIONAL TECNOLÓGICAMENTE MÁS AVANZADO.</H3>
-            <p>Un sistema innovador: Se trata de una gama de equipos de última generación, que difunden el aroma en el ambiente de forma controlada, limpia, rápida, constante y eficaz. Son sistemas compactos, ecológicos, programables y de bajo consumo.</p>
-            <p>Aplicaciones: Establecimientos y centros comerciales, hoteles y restaurantes, oficinas y centros de trabajo, auditorios, cines, teatros y salones de fiestas, clínicas, hospitales, consultorios y salas de espera, gimnasios y spa, hogares, etc.</p>
-            <p>Fragancias: Disponemos de un stock de 70 deliciosas fragancias de alta perfumería, especialmente diseñadas para ser utilizadas con este sistema. Asimismo, diseñamos aromas corporativos exclusivos bajo petición (logo olfativo).</p>
+
+        <main>
+        <!--INICIO DE DESCRIPCION DE SERVICIO-->
+        <div class="servicios">
+           <h3>PONEMOS A SU DISPOSICIÓN EL SISTEMA DE AROMATIZACIÓN AMBIENTAL PROFESIONAL TECNOLÓGICAMENTE MÁS AVANZADO.</h3>
+
+        <div class="container">
+            <div class="col">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../img/servicio1.jpg" class="card-img-top" alt="Sistema innovador">
+                        <div class="card-body">
+                          <h5 class="card-title">Un sistema innovador</h5>
+                          <p class="card-text">Se trata de una gama de equipos de última generación, que difunden el aroma en el ambiente de forma controlada, limpia, rápida, constante y eficaz. Son sistemas compactos, ecológicos, programables y de bajo consumo.</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../img/hotel.jpg" class="card-img-top" alt="Tipo de Aplicaciones">
+                        <div class="card-body">
+                          <h5 class="card-title">Aplicaciones</h5>
+                          <p class="card-text">Establecimientos y centros comerciales, hoteles y restaurantes, oficinas y centros de trabajo, auditorios, cines, teatros y salones de fiestas, clínicas, hospitales, consultorios y salas de espera, gimnasios y spa, hogares, etc.</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="../img/servicio2.jpg" class="card-img-top" alt="Creador de fragancias">
+                        <div class="card-body">
+                          <h5 class="card-title">Fragancias</h5>
+                          <p class="card-text">Disponemos de un stock de 70 deliciosas fragancias de alta perfumería, especialmente diseñadas para ser utilizadas con este sistema. Asimismo, diseñamos aromas corporativos exclusivos bajo petición (logo olfativo).</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                
+            </div>
         </div>
-        <footer>
-            <h2 class="piedepagina">Celular: 2604538909 - San Rafael - Mendoza</h2>
+
+        </div>
+        </main>
+        <!--FIN DE DESCRIPCION DE SERVICIO-->      
+        
+        <!--INICIO FOOTER-->
+        <footer class="footer py-4">
+            <div class="container">
+    
+              <div class="row">
+    
+                <div class="col-6">
+                  <ul class="info-contacto">
+                    <li><i class="fas fa-map-marker-alt"></i> San Rafael - Mendoza</li>
+                    <li><i class="fab fa-whatsapp"></i> 2604538909</li>
+                    <li><i class="fas fa-envelope"></i> info@eliaromas.com</li>
+                  </ul>
+                </div>
+    
+                <div class="col-6">
+                  <h4>Eli Aromas</h4>
+                  <p>Nos dedicamos a desarrollar diversas líneas de productos, pensados para aromatizar y reconfortar silenciosamente nuestros espacios de vida</p>
+                  <ul class="redes-sociales">
+                    <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  </ul>
+                </div>
+    
+              </div>
+            </div>
         </footer>
+        <!--FIN FOOTER-->
+
     </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

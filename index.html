@@ -7,43 +7,61 @@
     <meta name="keywords" content="aromas ambientales, velas, difusores, sahumerios, aceites">
     <meta name="description" content="Eli aromas te invita a ver nuestra amplia variedad de aromas que se destacan por su persistencia ya que son realizadas con esencias de primera calidad">
     <title>Eli | Aromas</title>
-    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- LINK ESTILOS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
 
 </head>
 <body>
     <div id="grilla">
         <header>
-            <h1>ELI AROMAS</h1>
+          <h1 class="text-center"><a href="index.html">ELI AROMAS </a></h1>
         </header>
-        <!--INICIO MENU-->           
-        <nav class="nav nav-pills flex-column flex-sm-row">
-          <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="../repoProyecto/index.html">INICIO</a>
-          <a class="flex-sm-fill text-sm-center nav-link" href="../repoProyecto/html/productos.html">PRODUCTOS</a>
-          <a class="flex-sm-fill text-sm-center nav-link" href="../repoProyecto/html/servicios.html">SERVICIOS</a>
-          <a class="flex-sm-fill text-sm-center nav-link" href="../repoProyecto/html/galeria.html">GALERIA</a>
-          <a class="flex-sm-fill text-sm-center nav-link" href="../repoProyecto/html/contacto.html">CONTACTO</a>
+        <!--INICIO MENU-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+              <div class="navbar-nav">
+
+                <a class="nav-link active" href="index.html">Inicio</a>
+                <a class="nav-link" href="html/productos.html">Productos</a>
+                <a class="nav-link" href="html/servicios.html">Servicios</a>
+                <a class="nav-link" href="html/galeria.html">Galeria</a>
+                <a class="nav-link" href="html/contacto.html">Contacto</a>
+
+              </div>
+            </div>
+
+          </div>
         </nav>
         <!--FIN MENU-->
+
         <main>
 
             <!--INICIO CAROUSEL-->
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="../repoProyecto/img/CAROUSEL/bottle-2812214_640.jpg" class="d-block w-100" alt="PERFUME EN BOTELLA GRANDE">
+                    <img src="img/CAROUSEL/bottle-2812214_640.jpg" class="d-block w-100" alt="PERFUME EN BOTELLA GRANDE">
                   </div>
                   <div class="carousel-item">
-                    <img src="../repoProyecto/img/CAROUSEL/essential-oil-3073901_640.jpg" class="d-block w-100" alt="ACEITE ESENCIAL">
+                    <img src="img/CAROUSEL/essential-oil-3073901_640.jpg" class="d-block w-100" alt="ACEITE ESENCIAL">
                   </div>
                   <div class="carousel-item">
-                    <img src="../repoProyecto/img/CAROUSEL/perfume-2574073_640.jpg" class="d-block w-100" alt="PERFUME ENVASE CUADRADO">
+                    <img src="img/CAROUSEL/perfume-2574073_640.jpg" class="d-block w-100" alt="PERFUME ENVASE CUADRADO">
                   </div>
                   <div class="carousel-item">
-                    <img src="../repoProyecto/img/CAROUSEL/safe-3635196_640.jpg" class="d-block w-100" alt="ENVASE CONICO">
+                    <img src="img/CAROUSEL/safe-3635196_640.jpg" class="d-block w-100" alt="ENVASE CONICO">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -56,9 +74,40 @@
                 </button>
             </div>
             <!--FIN CAROUSEL-->
+
+            <div id="index-nosotros" class="p-4">
+              <h2>NOSOTROS</h2>
+              <p>Eli Aromas es una empresa joven que nació con una idea renovadora en el concepto de perfumes textiles. Hoy nos dedicamos a desarrollar diversas líneas de productos, pensados para aromatizar y reconfortar silenciosamente nuestros espacios de vida.Comercializamos nuestros productos a través de canales mayoristas que llegan a todo el país. En Eli Aromas nos destacamos por nuestra amplia variedad de aromas realizados con esencias de primerísima calidad.
+                Nuestro compromiso es acercarles productos creados con la mayor dedicación y trabajar permanentemente en la búsqueda de nuevas ideas. En la actualidad hemos anexado además las "tiendas de aromas", como puntos de venta de nuestra marca en distintas ciudades.</p>
+            </div>
+
         </main>
-        <footer class="footer">
-            <h2 class="footer__h2">Celular: 2604538909 - San Rafael - Mendoza</h2>
+
+        <footer class="footer py-4">
+            <div class="container">
+
+              <div class="row">
+
+                <div class="col-6">
+                  <ul class="info-contacto">
+                    <li><i class="fas fa-map-marker-alt"></i> San Rafael - Mendoza</li>
+                    <li><i class="fab fa-whatsapp"></i> 2604538909</li>
+                    <li><i class="fas fa-envelope"></i> info@eliaromas.com</li>
+                  </ul>
+                </div>
+
+                <div class="col-6">
+                  <h4>Eli Aromas</h4>
+                  <p>Nos dedicamos a desarrollar diversas líneas de productos, pensados para aromatizar y reconfortar silenciosamente nuestros espacios de vida</p>
+                  <ul class="redes-sociales">
+                    <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
